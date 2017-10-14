@@ -1,0 +1,194 @@
+{
+   "type" : "entity",
+   "mixins": "stonehearth:mixins:base_human", 
+   "components": {
+      "render_info" : {
+         "animation_table" : "stonehearth:skeletons:humanoid:male"      
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(head.qb)",
+               "file(body.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:customization_variants" : {
+         "customization_options": "stonehearth:humans:male:customizations",
+         "root": {
+            "hair_and_skin_color": {
+               "weights": {
+                  "hair_and_skin_color": 1
+               }
+            },
+            "age": {
+               "weights": {
+                  "young": 3,
+                  "old": 1
+               }
+            }
+         },
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "black": 3,
+                     "brown": 3,
+                     "sandy": 1,
+                     "blue": 1,
+                     "green": 1,
+                     "grey": 1,
+                     "greyscvale": 1,
+                     "ice": 1,
+                     "icki": 1,
+                     "lavender": 1,
+                     "lime": 1,
+                     "orange": 1,
+                     "pink": 1,
+                     "purple": 1,
+                     "silver": 1,
+                     "crazy": 1,
+                     "crazy2": 1,
+                     "flame": 1,
+                     "white": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "brown_1": 1
+                  }
+               }
+            },
+            "young": {
+               "eyebrows": {
+                  "weights": {
+                     "[none]": 1,
+                     "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "[none]": 1,
+                     "chops": 1,
+                     "beard_kitty_biggoatee": 1,
+                     "beard_kitty_burlyjack": 1,
+                     "beard_kitty_dwarfkin": 1,
+                     "beard_kitty_foxybeard": 1,
+                     "beard_kitty_Goatee": 1,
+                     "beard_kitty_macho": 1,
+                     "beard_kitty_magi": 1,
+                     "beard_kitty_mightypus": 1,
+                     "beard_kitty_orkus": 1,
+                     "beard_kitty_Pharaoh": 1,
+                     "beard_kitty_Seito": 1,
+                     "beard_kitty_Sensei": 1,
+                     "beard_kitty_talian": 1,
+                     "beard_kitty_theEpic": 1,
+                     "beard_kitty_zealot1": 1,
+					 "beard_kitty_zealot2": 1,
+					 "beard_kitty_zealot3": 1,					 
+                     "beard_kitty_Zzcot": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "hair_1": 1,
+                     "hair_2": 1,
+                     "hair_3": 1,
+                     "hair_4": 1,
+                     "hair_8bit_hawk": 1,
+                     "hair_8bit_hawk2": 1,
+                     "hair_kitty_celtin": 1,
+                     "hair_kitty_celtin_v2": 1,
+                     "hair_kitty_dwarfkin": 1,
+                     "hair_kitty_eastlong": 1,
+                     "hair_kitty_fancycurls": 1,
+                     "hair_kitty_geeky": 1,
+                     "hair_kitty_gentleman": 1,
+                     "hair_kitty_guyphones1": 1,
+                     "hair_kitty_guyphones2": 1,
+                     "hair_kitty_monkcut": 1,
+                     "hair_kitty_newsboy": 1,
+                     "hair_kitty_punkster": 1,
+					 "hair_kitty_quincy": 1,
+                     "hair_kitty_shaggy": 1,
+                     "hair_kitty_shaggyoldmann": 1,
+                     "hair_kitty_simple": 1,
+                     "hair_kitty_slickhawk": 1,
+                     "hair_kitty_spiky": 1,
+					 "hair_kitty_spiralcurl": 1,
+                     "hair_kitty_warriorrainbow": 1,
+                     "hair_kitty_creepyzealot1": 1,					 
+                     "hair_kitty_creepyzealot2": 1,					 
+                     "hair_kitty_splithairsonality": 1,
+                     "hair_kitty_talian": 1,
+                     "hair_kitty_warriorbraid": 1,
+                     "hair_mel_fauxhawk_right": 1,
+                     "hair_wiese_japan": 1
+                  }
+               }
+            },
+            "old": {
+               "eyebrows": {
+                  "weights": {
+                     "[none]": 1,
+                     "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "chops": 1,
+                     "beard_kitty_biggoatee": 1,
+                     "beard_kitty_burlyjack": 1,
+                     "beard_kitty_dwarfkin": 1,
+                     "beard_kitty_foxybeard": 1,
+                     "beard_kitty_Goatee": 1,
+                     "beard_kitty_macho": 1,
+                     "beard_kitty_magi": 1,
+                     "beard_kitty_mightypus": 1,
+                     "beard_kitty_orkus": 1,
+                     "beard_kitty_Pharaoh": 1,
+                     "beard_kitty_Seito": 1,
+                     "beard_kitty_Sensei": 1,
+                     "beard_kitty_talian": 1,
+                     "beard_kitty_theEpic": 1,
+                     "beard_kitty_Zzcot": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "hair_old_1": 1,
+                     "hair_old_2": 1,
+                     "hair_8bit_hawk": 1,
+                     "hair_8bit_hawk2": 1,
+                     "hair_kitty_celtin": 1,
+                     "hair_kitty_celtin_v2": 1,
+                     "hair_kitty_dwarfkin": 1,
+                     "hair_kitty_eastlong": 1,
+                     "hair_kitty_fancycurls": 1,
+                     "hair_kitty_geeky": 1,
+                     "hair_kitty_gentleman": 1,
+                     "hair_kitty_guyphones1": 1,
+                     "hair_kitty_guyphones2": 1,
+                     "hair_kitty_monkcut": 1,
+                     "hair_kitty_newsboy": 1,
+                     "hair_kitty_punkster": 1,
+                     "hair_kitty_shaggy": 1,
+                     "hair_kitty_shaggyoldmann": 1,
+                     "hair_kitty_simple": 1,
+                     "hair_kitty_slickhawk": 1,
+                     "hair_kitty_spiky": 1,
+                     "hair_kitty_splithairsonality": 1,
+                     "hair_kitty_talian": 1,
+                     "hair_kitty_warriorbraid": 1,
+                     "hair_mel_fauxhawk_right": 1,
+                     "hair_wiese_japan": 1
+                  }
+               }
+            }  
+         }
+      }
+   }
+}
